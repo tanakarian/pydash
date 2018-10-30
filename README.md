@@ -1,7 +1,7 @@
 # pydash
 Python Client for Redash API
 
-# Usage
+# Setup
 ## 開発環境、ローカルでいじるとき
 ```bash
 git clone https://github.com/eure/pydash
@@ -24,4 +24,12 @@ pipenv shell
 ## ライブラリとして使うとき
 ```bash
 pip install -U git+https://github.com/tanakarian/pydash 
+```
+# Usage
+```python
+from pydash import Client
+
+
+c = Client(host, api_key, data_source_id)
+res_df = c.query(q).to_dataframe()
 ```
