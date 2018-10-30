@@ -23,5 +23,5 @@ pipenv shell
 
 ## ライブラリとして使うとき
 ```bash
-pip install -U git+https://github.com/eure/pydash 
+pip install -U git+https://github.com/tanakarian/pydash 
 ```
