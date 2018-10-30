@@ -12,7 +12,7 @@ pipenv install
 pipenv update
 
 # .envに以下記載
-PYTHONPATH=/path/to/eure/pydash
+PYTHONPATH=/path/to/tanakarian/pydash
 USER=
 PASSWORD=
 
